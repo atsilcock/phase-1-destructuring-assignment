@@ -17,7 +17,7 @@ describe("index.js", () => {
   })
   it("String: uses destructuring to declare the four traditional animal names", () => {
     expect(bessie).to.exist
-    expect(bessie).to.equal("cow")
+    expect(bessie).to.equal("cow") 
     expect(dolly).to.exist
     expect(dolly).to.equal("sheep")
     expect(babe).to.exist
